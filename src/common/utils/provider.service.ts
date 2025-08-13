@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import { ethers } from "ethers";
-import * as P2PTransferProject from "./abis/P2PTransferProject.json";
+import * as P2PTransferProject from "./abis/ProjectToken.json";
 
 @Injectable()
 export class ProviderService {
